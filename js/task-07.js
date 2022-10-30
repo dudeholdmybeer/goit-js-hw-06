@@ -3,6 +3,6 @@
 const rangeInput = document.querySelector("#font-size-control");
 const text = document.querySelector("#text");
 
-rangeInput.addEventListener("click", () => {
+rangeInput.addEventListener("input", () => {
   text.style.fontSize = `${rangeInput.valueAsNumber}px`;
 });
